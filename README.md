@@ -16,4 +16,6 @@ The following repository contains answers to the Prelim. Following instructions 
    and uses them as initial conditions u0 for steady state obtaines, u1 for 25% less and u2 for 25% more. 
 
 6. The MATLAB program for constructing the toggle switch graph in 2c is present in the 2c stable.m file for plotting steady states only 
-   and 2c Unstable.m for plotting steady and unsteady states. 
+   and 2c Unstable.m for plotting steady and unsteady states.  For solving this question the derivatives of x and y w.r.t time were taken 
+   as zero and the resulting system of equations was solved for x and varying values of S using the VPA solver in MATLAB.
+   
